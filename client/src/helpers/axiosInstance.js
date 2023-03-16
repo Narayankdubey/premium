@@ -1,7 +1,7 @@
 import axios from "axios";
 import { authService } from "./authService";
 
-const baseURL = process.env.BASEURL ;
+const baseURL = "https://om-assignment.onrender.com/api/" ;
 
 let headers = {};
 const token = localStorage.getItem("accesstoken");
